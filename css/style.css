@@ -1,0 +1,54 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.2s linear;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-color: #0096c7;
+}
+section{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #EE7674;
+}
+.header .flex{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .flex .logo{
+    font-size: 2.5rem;
+    color: #E6EBE0;
+}
+.header .flex .navbar a{
+    margin-left: 2rem;
+    color: #F4F1BB;
+    font-size: 1.5rem;
+    height: 1.5rem;
+    width: 2.5rem;
+}
+.header .flex .navbar a:hover{
+    color: #E0D8CC;
+    background-color: #BA3F1D;
+    border-radius: 0.5rem;
+}
+#menu-btn{
+    cursor: pointer;
+    color: #F4F1BB;
+    font-size: 2.5rem;
+    display: none;
+}
+/* media queries */
